@@ -22,12 +22,27 @@
   text-decoration: none;
 }
 
+.links:hover{
+  scale: 1.05;
+}
+
+/*voltar dps pra arrumar cor*/
+
+a:visited{
+  color: #03045E;
+}
+
+a:active{
+  color: #CAF0F8;
+}
+
 .container-app{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 
   background: hsla(220, 78%, 29%, 1);
   background: linear-gradient(90deg, hsla(220, 78%, 29%, 1) 0%, hsla(221, 45%, 73%, 1) 100%);

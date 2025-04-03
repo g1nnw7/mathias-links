@@ -1,5 +1,7 @@
+import { LiaLinkedin } from 'react-icons/lia';
 import './App.css'
 import { FaGithub } from "react-icons/fa6";
+import Linkedin from './components/Linkedin';
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
       <FaGithub />
       Github
       </a>
+      <Linkedin/>
     </div>
   )
 }
